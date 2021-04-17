@@ -16,13 +16,13 @@
 // -----------------------------------------------------------------------------------------
 // |  TAB |  Q  |  W  |  F  |  P  |  G  |   |  J  |  L   |  U  |  Y  |  ;  | BKSP |
 // | CTRL |  A  |  R  |  S  |  T  |  D  |   |  H  |  N   |  E  |  I  |  O  |  '   |
-// | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  K  |  M   |  ,  |  .  |  /  | RGUI |
+// | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  K  |  M   |  ,  |  .  |  /  | LGUI |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
    &kp TAB   &kp Q &kp W &kp F &kp P &kp G   &kp J &kp L  &kp U     &kp Y   &kp SEMI    &kp BSPC
-   &kp LCTRL &kp A &kp R &kp S &kp T &kp D   &kp H &kp N  &kp E     &kp I   &kp O &kp SQT
-   &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp K &kp M  &kp COMMA &kp DOT &kp FSLH &kp RGUI
-                 &mo 1 &kp TAB 1 &kp LSHFT   &kp SPACE &kp ENT &mo 2
+   &kp ESC &kp A &kp R &kp S &kp T &kp D     &kp H &kp N  &kp E     &kp I   &kp O &kp SQT
+   &kp LCTRL &kp Z &kp X &kp C &kp V &kp B   &kp K &kp M  &kp COMMA &kp DOT &kp FSLH &kp LGUI
+              &mo LOWER &kp TAB  &kp LSHFT   &kp SPACE &kp ENTER &mo RAISE
                         >;
                 };
                 lower_layer {
