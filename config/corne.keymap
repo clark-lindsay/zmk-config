@@ -47,7 +47,7 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-   &kp ESC &kp MINUS    &kp PLUS &kp EQUAL   &kp GT    &trans      &kp LG(LS(LA(LCTRL))) &kp LEFT &kp DOWN        &kp UP &kp RIGHT &none
+   &kp ESC &kp MINUS    &kp PLUS &kp EQUAL   &kp GT    &trans      &none &kp LEFT &kp DOWN        &kp UP &kp RIGHT &none
    &kp LCTRL &sk LCTRL &sk LSHFT    &sk LALT  &sk LGUI    &none    &none &kp C_MUTE    &kp C_VOL_DOWN    &kp C_VOL_UP          &none   &kp LGUI 
                                    &none &kp TAB &kp LSHFT   &kp SPACE &kp ENTER &none
                         >;
