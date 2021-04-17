@@ -18,11 +18,6 @@
                 compatible = "zmk,keymap";
 
                 default_layer {
-// -----------------------------------------------------------------------------------------
-// | GRAVE |  Q  |  W  |  F  |  P  |  G  |   |  J  |  L   |  U  |  Y  |  ;  | BKSP |
-// | ESC |  A  |  R  |  S  |  T  |  D  |   |  H  |  N   |  E  |  I  |  O  |  '   |
-// | LCTRL |  Z  |  X  |  C  |  V  |  B  |   |  K  |  M   |  ,  |  .  |  /  | LGUI |
-//                | lower | TAB | LSHFT |   | SPACE | ENTER  | raise |
                         bindings = <
    &kp GRAVE &kp Q   &kp W     &kp F     &kp P     &kp G &kp J &kp L &kp U     &kp Y   &kp SEMI &kp BSPC
    &kp ESC   &kp A   &kp R     &kp S     &kp T     &kp D &kp H &kp N &kp E     &kp I   &kp O    &kp SQT
@@ -32,10 +27,6 @@
                 };
                 lower_layer {
 // -----------------------------------------------------------------------------------------
-// |  ESC |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-// | CTRL |     |     |     |     |     |   |  -  |  =  |  {  |  }  | "|" |  `   |
-// | SHFT |     |     |     |     |     |   |  _  |  +  |  [  |  ]  |  \  |  ~   | // TODO: Fix this row when &mkp is committed
-//                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &trans    &trans    &trans    &trans    &trans   &trans &trans &trans   &trans   &trans &trans    &trans
    &kp ESC   &kp MINUS &kp PLUS  &kp EQUAL &kp GT   &trans &none  &kp LEFT &kp DOWN &kp UP &kp RIGHT &none
@@ -47,10 +38,16 @@
 
                 raise_layer {
 // -----------------------------------------------------------------------------------------
-// |  ESC |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-// | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-// | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
-//                    | GUI |     | SPC |   | ENT |     | ALT |
+                        bindings = <
+   &kp  ESC  &kp     N1 &kp  N2 &kp  LBRC &kp    RBRC &kp     N5 &kp N6    &kp N7    &kp N8  &kp  N9 &kp   N0  &kp BSPC
+   &kp  ESC  &kp     LT &kp  GT &kp LPAR  &kp   RPAR  &trans     &trans    &kp  N4   &kp  N5 &kp  N6 &kp MINUS &trans
+   &kp LCTRL &trans     &trans  &kp LBKT  &kp RBKT    &trans     &kp    N0 &kp    N1 &kp  N2 &kp  N3 &kp DOT   &kp   LGUI
+                        &none       &kp    TAB   &kp LSHFT &kp SPACE  &kp   ENTER &trans
+                        >;
+
+                };
+                function_layer {
+// -----------------------------------------------------------------------------------------
                         bindings = <
    &kp  ESC  &kp     N1 &kp  N2 &kp  LBRC &kp    RBRC &kp     N5 &kp N6    &kp N7    &kp N8  &kp  N9 &kp   N0  &kp BSPC
    &kp  ESC  &kp     LT &kp  GT &kp LPAR  &kp   RPAR  &trans     &trans    &kp  N4   &kp  N5 &kp  N6 &kp MINUS &trans
