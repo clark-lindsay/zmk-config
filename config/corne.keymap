@@ -16,8 +16,8 @@
 / {
         keymap {
                 compatible = "zmk,keymap";
-
                 default_layer {
+// -----------------------------------------------------------------------------------------
                         bindings = <
    &kp GRAVE &kp Q   &kp W     &kp F     &kp P     &kp G &kp J &kp L &kp U     &kp Y   &kp SEMI &kp BSPC
    &kp ESC   &kp A   &kp R     &kp S     &kp T     &kp D &kp H &kp N &kp E     &kp I   &kp O    &kp SQT
@@ -31,7 +31,7 @@
    &trans    &trans    &trans    &trans    &trans   &trans &trans &trans   &trans   &trans &trans    &trans
    &kp ESC   &kp MINUS &kp PLUS  &kp EQUAL &kp GT   &trans &none  &kp LEFT &kp DOWN &kp UP &kp RIGHT &none
    &kp LCTRL &sk LCTRL &sk LSHFT &sk LALT  &sk LGUI &none  &none  &none    &none    &none  &none     &kp LGUI
-                                   &none &kp TAB &kp LSHFT   &kp SPACE &kp ENTER &none
+                                   &none &kp TAB &kp LSHFT   &kp SPACE &kp ENTER &mo FUNCTION
                         >;
 
                 };
@@ -42,17 +42,17 @@
    &kp  ESC  &kp     N1 &kp  N2 &kp  LBRC &kp    RBRC &kp     N5 &kp N6    &kp N7    &kp N8  &kp  N9 &kp   N0  &kp BSPC
    &kp  ESC  &kp     LT &kp  GT &kp LPAR  &kp   RPAR  &trans     &trans    &kp  N4   &kp  N5 &kp  N6 &kp MINUS &trans
    &kp LCTRL &trans     &trans  &kp LBKT  &kp RBKT    &trans     &kp    N0 &kp    N1 &kp  N2 &kp  N3 &kp DOT   &kp   LGUI
-                        &none       &kp    TAB   &kp LSHFT &kp SPACE  &kp   ENTER &trans
+                        &mo FUNCTION       &kp    TAB   &kp LSHFT &kp SPACE  &kp   ENTER &none
                         >;
 
                 };
                 function_layer {
 // -----------------------------------------------------------------------------------------
                         bindings = <
-   &kp  ESC  &kp     N1 &kp  N2 &kp  LBRC &kp    RBRC &kp     N5 &kp N6    &kp N7    &kp N8  &kp  N9 &kp   N0  &kp BSPC
-   &kp  ESC  &kp     LT &kp  GT &kp LPAR  &kp   RPAR  &trans     &trans    &kp  N4   &kp  N5 &kp  N6 &kp MINUS &trans
-   &kp LCTRL &trans     &trans  &kp LBKT  &kp RBKT    &trans     &kp    N0 &kp    N1 &kp  N2 &kp  N3 &kp DOT   &kp   LGUI
-                        &none       &kp    TAB   &kp LSHFT &kp SPACE  &kp   ENTER &trans
+   &none &none &none &none &none &none &none &kp F7 &kp F8 &kp F9 &kp F10 &kp F11
+   &none &none &none &none &none &none &none &kp F4 &kp F5 &kp F6 &kp F12 &none
+   &none &none &none &none &none &none &none &kp F1 &kp F2 &kp F3 &none   &none
+                     &none &none &none &none &none &none
                         >;
 
                 };
