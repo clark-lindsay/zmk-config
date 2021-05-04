@@ -28,10 +28,10 @@
                 lower_layer {
 // -----------------------------------------------------------------------------------------
                         bindings = <
-   &none  &kp  N1   &kp  N2   &kp  N3   &kp  N4  &kp   N5   &none &none &none &none &none &none
-    &kp   ESC  &kp MINUS &kp KP_PLUS  &kp KP_EQUAL &kp  GT  &none &none  &kp  LEFT   &kp  DOWN   &kp   UP  &kp RIGHT &none
-    &kp  LCTRL &sk LSHFT &sk LCTRL &sk LALT  &sk LGUI &none &none &none &none &none &none  &kp  LGUI
-                          &none &kp TAB &kp LSHFT &kp SPACE &kp ENTER &mo FUNCTION
+   &none      &kp  N1   &kp  N2     &kp  N3      &kp  N4   &kp   N5              &none &none     &none     &none    &none     &none
+   &kp   ESC  &kp MINUS &kp KP_PLUS &kp KP_EQUAL &kp  GT   &sk LG(LS(LA(LCTRL))) &none &kp  LEFT &kp  DOWN &kp   UP &kp RIGHT &none
+   &kp  LCTRL &sk LSHFT &sk LCTRL   &sk LALT     &sk LGUI  &none                 &none &none     &none     &none    &none     &kp  LGUI
+                        &none      &kp TAB   &kp LSHFT   &kp SPACE    &kp ENTER &mo FUNCTION
                         >;
 
                 };
