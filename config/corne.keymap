@@ -60,10 +60,10 @@
                 hyper_layer {
 // -----------------------------------------------------------------------------------------
                         bindings = <
-   &sk LG(LS(LA(LCTRL(GRAVE)))) &sk LG(LS(LA(LCTRL(Q)))   &sk LG(LS(LA(LCTRL(W))) &sk LG(LS(LA(LCTRL(F)))     &sk LG(LS(LA(LCTRL(P)))     &sk LG(LS(LA(LCTRL(G))) &sk LG(LS(LA(LCTRL(J))) &sk LG(LS(LA(LCTRL(L))) &sk LG(LS(LA(LCTRL(U)))     &sk LG(LS(LA(LCTRL(Y)))   &sk LG(LS(LA(LCTRL(SEMI))) &sk LG(LS(LA(LCTRL(BSPC)))
-   &sk LG(LS(LA(LCTRL(ESC)))    &sk LG(LS(LA(LCTRL(A)))   &sk LG(LS(LA(LCTRL(R))) &sk LG(LS(LA(LCTRL(S)))     &sk LG(LS(LA(LCTRL(T)))     &sk LG(LS(LA(LCTRL(D))) &sk LG(LS(LA(LCTRL(H))) &sk LG(LS(LA(LCTRL(N))) &sk LG(LS(LA(LCTRL(E)))     &sk LG(LS(LA(LCTRL(I)))   &sk LG(LS(LA(LCTRL(O)))    &sk LG(LS(LA(LCTRL(SQT)))
-   &none                        &sk LG(LS(LA(LCTRL(Z)))   &sk LG(LS(LA(LCTRL(X))) &sk LG(LS(LA(LCTRL(C)))     &sk LG(LS(LA(LCTRL(V)))     &sk LG(LS(LA(LCTRL(B))) &sk LG(LS(LA(LCTRL(K))) &sk LG(LS(LA(LCTRL(M))) &sk LG(LS(LA(LCTRL(COMMA))) &sk LG(LS(LA(LCTRL(DOT))) &sk LG(LS(LA(LCTRL(FSLH))) &none
-   &none                        &sk LG(LS(LA(LCTRL(TAB))) &none                   &sk LG(LS(LA(LCTRL(SPACE))) &sk LG(LS(LA(LCTRL(ENTER))) &none
+   &sk LG(LS(LA(LCTRL(GRAVE)))) &sk LG(LS(LA(LCTRL(Q))))   &sk LG(LS(LA(LCTRL(W)))) &sk LG(LS(LA(LCTRL(F))))     &sk LG(LS(LA(LCTRL(P))))     &sk LG(LS(LA(LCTRL(G)))) &sk LG(LS(LA(LCTRL(J)))) &sk LG(LS(LA(LCTRL(L)))) &sk LG(LS(LA(LCTRL(U))))     &sk LG(LS(LA(LCTRL(Y))))   &sk LG(LS(LA(LCTRL(SEMI)))) &sk LG(LS(LA(LCTRL(BSPC))))
+   &sk LG(LS(LA(LCTRL(ESC))))    &sk LG(LS(LA(LCTRL(A))))   &sk LG(LS(LA(LCTRL(R)))) &sk LG(LS(LA(LCTRL(S))))     &sk LG(LS(LA(LCTRL(T))))     &sk LG(LS(LA(LCTRL(D)))) &sk LG(LS(LA(LCTRL(H)))) &sk LG(LS(LA(LCTRL(N)))) &sk LG(LS(LA(LCTRL(E))))     &sk LG(LS(LA(LCTRL(I))))   &sk LG(LS(LA(LCTRL(O))))    &sk LG(LS(LA(LCTRL(SQT))))
+   &none                        &sk LG(LS(LA(LCTRL(Z))))   &sk LG(LS(LA(LCTRL(X)))) &sk LG(LS(LA(LCTRL(C))))     &sk LG(LS(LA(LCTRL(V))))     &sk LG(LS(LA(LCTRL(B)))) &sk LG(LS(LA(LCTRL(K)))) &sk LG(LS(LA(LCTRL(M)))) &sk LG(LS(LA(LCTRL(COMMA)))) &sk LG(LS(LA(LCTRL(DOT)))) &sk LG(LS(LA(LCTRL(FSLH)))) &none
+   &none                        &sk LG(LS(LA(LCTRL(TAB)))) &none                   &sk LG(LS(LA(LCTRL(SPACE)))) &sk LG(LS(LA(LCTRL(ENTER)))) &none
                         >;
 
                 };
